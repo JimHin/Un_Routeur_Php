@@ -1,0 +1,11 @@
+{
+    "name": "jim/un_routeur_php",
+    "description": "un retour basique en php",
+    "authors": [
+        {
+            "name": "JimHin",
+            "email": "krowstudio@icloud.com"
+        }
+    ],
+    "require": {}
+}
