@@ -22,13 +22,13 @@ class Route{
         $reg = "#^";
         $ex = "$#i";
         $regex = $reg.$path.$ex;
-
+        //print_r($regex);
         if(!preg_match($regex,$url,$matches)){
             return false;
         }
         array_shift($matches);
         $this->_matches = $matches;
-        print_r($this->_matches);
+        //print_r($this->_matches);
         return true;
     }
 
